@@ -1,0 +1,36 @@
+.navbar {
+    overflow: hidden;
+    background-color: #fff;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: right;
+    display: block;
+    color: #444;
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+  text-decoration: underline;
+}
+
+body{
+  background-image: url("../image/homebg.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+   background-attachment: fixed;
+   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+color:#fff;
+}
+
+main{
+  margin-top: 350px;
+  line-height:1;
+  font-size: 500%;
+  text-align: center;}
