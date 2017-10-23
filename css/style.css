@@ -8,17 +8,19 @@
 
 /* Links inside the navbar */
 .navbar a {
-    float: right;
+float: left;
     display: block;
     color: #444;
-    text-align: center;
+
     padding: 30px 30px;
     text-decoration: none;
 }
 
+
 .navbar a:hover{
   text-decoration: underline;
 }
+
 
 body{
   background-image: url("../image/homebg.jpg");
@@ -44,9 +46,45 @@ h1 {
 
 .row {
   font-size: 20px;
-  
+
 }
 
 iframe{
   margin-top: 25px;
 };
+
+
+.dropa {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 85px;
+    background-color: #f9f9f9;
+    min-width: 260px;
+    overflow: auto;
+    z-index: 1;
+}
+
+.dropdown-content p {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 120%;
+}
+
+
+.show {display:block;}
