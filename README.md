@@ -42,10 +42,15 @@ Use of the share function: by sharing the news articles they review at out site 
 - Headlines gallery - users upload links of news articles to contribute to the pool of news articles to be reviewed by other users (need to be processed by developers)  
 
 # Structure
+![Alt text](image/structure.png)
 
 # Skeleton
-
-
+![Alt text](image/skeleton.png)
+![Alt text](image/skeleton2.png)
+![Alt text](image/skeleton3.png)
+![Alt text](image/skeleton4.png)
+![Alt text](image/skeleton5.png)
+![Alt text](image/skeleton6.png)
 # Prototype and User Tests
 User test was conducted in an early stage of the development. For the test we printed out web pages of news articles and mimicked the online user experience. After introduced to the rules, users were asked to read the article, decide whether it was real or fake and then tag the parts of article as reasons of that decision with red/green paper dots. We asked them to explain why they put the dots there and took notes of their answers. They also took two surveys about their news consumption habit and their user experience, before and after the test. 
 
