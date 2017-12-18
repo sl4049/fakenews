@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>FoR-home</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+<div class="tab">
+  <a class="tablinks" onclick="openTab(event, 'aboutTab')">About</a>
+  <a class="tablinks" onclick="openTab(event, 'instructionTab')">Instruction</a>
+  <a class="tablinks" onclick="openTab(event, 'reviewTab')">How To Review</a>
+
+</div>
+<div id="aboutTab" class="tabcontent">
+
+  <p> Fake Me Out was developed by two graduate students from Teachers College, Columbia University to help
+  news readers become critical thinkers. This site uses crowdsoursing to bring together different perspectives and
+help detect fake news. Be part of the movement and share your latest headline!</p>
+
+</div>
+<div id="instructionTab" class="tabcontent">
+  <p>1. Drop your latest news url into the box</p>
+  <p>2. Check out the reviews</p>
+  <p>3. Review the news</p>
+  <p>4. Share your headline!</p>
+</div>
+
+<div id="reviewTab" class="tabcontent">
+  <p></p>
+</div>
+
+  </div>
+
+
+<div class="icon">
+
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+</div>
+
+
+<main>
+  <h1>Is It Real or Fake?</h1>
+  <p class="mainP"> Paste the link of the article you want to review below</p>
+  <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+      <input id= "urlInput" type="text" class="form-control" placeholder="article link">
+    </div>
+  </div>
+<div class="review-button">
+<a href="review.html" class="btn btn-default" onclick="saveUrl()">review</a>
+</div>
+
+</main>
+
+
+<script src="https://www.gstatic.com/firebasejs/4.8.0/firebase.js"></script>
+<script>
+// Initialize Firebase
+var config = {
+  apiKey: "AIzaSyAozVPx6O8FBnk9YW4frgFHnn8LwM21kHU",
+  authDomain: "fake-news-ff2d5.firebaseapp.com",
+  databaseURL: "https://fake-news-ff2d5.firebaseio.com",
+  projectId: "fake-news-ff2d5",
+  storageBucket: "fake-news-ff2d5.appspot.com",
+  messagingSenderId: "402728410197"
+};
+firebase.initializeApp(config);
+</script>
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/myjs.js"></script>
+</body>
+
+
+</html>
