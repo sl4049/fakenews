@@ -7,7 +7,6 @@ function closeNav() {
 }
 
 
-
 function saveUrl() {
   var url = document.getElementById("urlInput").value;
     sessionStorage.setItem("inputurl", url);
@@ -18,7 +17,7 @@ function loadArticle () {
   articleEl.src = sessionStorage.getItem("inputurl");
 }
 
-function openTab(evt, cityName) {
+function openTab(evt, tabName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
@@ -28,7 +27,12 @@ function openTab(evt, cityName) {
     for (i = 0; i < tablinks.length; i++) {
         tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
-    document.getElementById(cityName).style.display = "block";
+    document.getElementById(tabName).style.display = "block";
     evt.currentTarget.className += " active";
 }
+
+//load reaviews on readReviews.html
+$('.reviewModal').modal('show');
+
+
 //"http://worldnewsdailyreport.com/woman-arrested-for-training-squirrels-to-attack-her-ex-boyfriend/";

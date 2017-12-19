@@ -82,9 +82,14 @@ font-family: "Levenim MT", CenturyGothic, AppleGothic, sans-serif;
   margin-top: 20px;
 }
 
+/*readReview.html*/
+
+.modal{
+  color:#818181
+}
 /*review.html*/
 .reviewHeader {
-  margin-top: 60px;
+  margin-top: 30px;
 }
 h3{
   font-family: "Levenim MT", CenturyGothic, AppleGothic, sans-serif;

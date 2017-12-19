@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>FoR-home</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body onload="loadArticle()" >
+
+
+<main>
+
+<div class="row news">
+  <iframe id="frame" height="5000" width="1000" src=".">
+    <p>Your browser does not support iframes.</p>
+  </iframe>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade reviewModal" id="readReviewsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="readReviewsModalLabel">Reviews</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p> <i style="font-size:24px" class="fa">&#xf040;</i> 4 people reviewed this article.</p>
+        <p> <i class="fa fa-check" style="font-size:24px;color:green"></i> 2 people identified this article as real.</p>
+        <p> <i class="fa fa-close" style="font-size:24px;color:red"></i> 2 people identified this article as fake.</p>
+
+      </div>
+      <div class="modal-footer">
+        <a href="review.html" class="btn btn-default" >Review this article</a>
+        <a href="index.html" class="btn btn-default" >Find other news</a>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+</main>
+
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/myjs.js"></script>
+</body>
+
+
+</html>
