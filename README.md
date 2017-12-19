@@ -20,37 +20,39 @@ Regina is married and she has two children. Every morning, she wakes up and chec
 As a person who checks their news daily on the Internet, I want to be able to determine fake news from real.
 # Strategy
 ## Site Objectives:
-This site trains users to become mindful media consumers with sharp eyes, instilling a good sense of skepticism in them. They will be able to identify fake news by recognizing key indicators and develop a habit of questioning the source. They are prepared to make a more informed decision when it comes to what to believe, what to repost and what to share to their social network. 
+This site trains users to become mindful media consumers with sharp eyes, instilling a good sense of skepticism in them. They will be able to evaluate news by recognizing key indicators and develop a habit of questioning the source. They are prepared to make a more informed decision when it comes to what to believe, what to repost and what to share to their social network.  
 
 ## Success Metrics
-Improved performance: as users review more news articles on the site they would get better at identifying real/fake news and spot key indicators successfully.  
-
+(Re)use of the review function: To simply upload the news to our site indicates a sense of skepticism on the users’ part - that they start to ask questions. When they upload more articles and choose to review themselves they have already become critical news readers.    
 Use of the share function: by sharing the news articles they review at out site they are raising awareness of the problem of fake news among their social networks. That they would share the site may suggest they feel the problem relevant and find our solution helpful in reducing misinformation within their social networks.
+
 # Scope
-- Users learn how the site works by reading instructions.
-- Brief introduction of our site and its purpose.Steps of the core feature - how to review news article on our site  
-- Users take the challenge 
-- Take tutorial and answer questions on habits of media-consumption in a live-chat manner  
+- Users learn how the site works by reading instructions 
+  - Brief introduction of our site and its purpose. 
+  - Steps of the core feature - how to review news article on our site  
+- Users check others’ reviews of new article
+  - Upload the url of news article
+  - See article
+  - See others’ reviews of news article
+- Users review news article
   - Read news article
   - Decide whether is fake or real
   - Identify key indicators of why it is real/fake
-  - Submit and get results. Explanations will be provided. 
+  - Submit and get results. 
   - Option to share the article on social media and/or send to a particular person
   - Review another and repeat the steps.
-- Users explore other resources
-- Research highlights - users are presented research results regarding fake news (one-sentence summary and simple visual)
-- Headlines gallery - users upload links of news articles to contribute to the pool of news articles to be reviewed by other users (need to be processed by developers)  
+  
 
 # Structure
 ![Alt text](image/structure.png)
 
 # Skeleton
-![Alt text](image/skeleton.png)
+![Alt text](image/skeleton1.png)
 ![Alt text](image/skeleton2.png)
 ![Alt text](image/skeleton3.png)
 ![Alt text](image/skeleton4.png)
 ![Alt text](image/skeleton5.png)
-![Alt text](image/skeleton6.png)
+
 # Prototype and User Tests
 User test was conducted in an early stage of the development. For the test we printed out web pages of news articles and mimicked the online user experience. After introduced to the rules, users were asked to read the article, decide whether it was real or fake and then tag the parts of article as reasons of that decision with red/green paper dots. We asked them to explain why they put the dots there and took notes of their answers. They also took two surveys about their news consumption habit and their user experience, before and after the test. 
 
@@ -61,4 +63,3 @@ After we decided to focus on fake news we started searching for existing sites/a
 
 At first we only thought of the skills, the tools and methods people need to authenticate sources, but we then learned that attitude is also playing an important role. People who felt the problem relevant also admitted that they usually would not question the news feed on social media, especially those shared by their friends. Users firstly have to be aware of the problem and be concerned enough to click in. That part our site still can’t solve. Yet, we have thought about ways to engage users if this web app were accessible as a google chrome extension. This would be much more accessible and it would be more likely to be used by our target age group.
 
-Cooperation has been challenging as one of us has a full-time job and lives out of the city, which makes in-person meeting difficult. For our further work in the next half of the semester, we need to make sure we follow the schedule and set up a system to work together virtually. 
